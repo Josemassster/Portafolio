@@ -1,0 +1,164 @@
+{
+  "navbar": {
+    "idioma": "Idioma",
+    "español": "Español",
+    "ingles": "Inglés",
+    "perfil": "Perfil",
+    "experiencia": "Experiencia",
+    "educacion": "Educación",
+    "habilidades-tecnicas": "Habilidades técnicas"
+  },
+  "aboutMe": {
+    "title": "Sobre Mí",
+    "paragraph1": "Soy José Guillermo Vargas Rodríguez, Tecnólogo en Análisis y Desarrollo de Sistemas de Información (ADSI) e Ingeniero de Sistemas en formación, apasionado por crear soluciones de software que combinen rendimiento, escalabilidad y una excelente experiencia de usuario.",
+    "paragraph2": "Durante los últimos más de dos años he participado en el desarrollo de aplicaciones web empresariales para entidades públicas y empresas privadas, colaborando en todas las etapas del desarrollo de software: desde el análisis de requerimientos y el diseño de arquitecturas, hasta la implementación, documentación y despliegue de soluciones en producción.",
+    "paragraph3": "Me especializo en el desarrollo Full Stack, utilizando tecnologías como Angular, React, Node.js, Express.js y Go (Golang) para construir aplicaciones modernas, APIs REST y plataformas escalables. También tengo experiencia trabajando con PostgreSQL, MySQL y MongoDB, optimizando bases de datos y diseñando modelos de información eficientes.",
+    "paragraph4": "A lo largo de mi experiencia he trabajado con arquitecturas Microservicios, Microfrontends, Monorepo y Multitenancy, además de implementar procesos de Integración y Despliegue Continuo (CI/CD) mediante GitHub Actions y Drone para automatizar entregas y mejorar la calidad del software.",
+    "paragraph5": "Disfruto resolver problemas complejos mediante soluciones simples y mantenibles. Siempre busco escribir código limpio, aprender nuevas tecnologías y participar en proyectos que representen desafíos técnicos y generen un impacto real para las organizaciones y sus usuarios.",
+    "card": {
+      "title": "Resumen Laboral",
+      "experience": "+2 años de experiencia",
+      "companies": "5 empresas laborales",
+      "projects": "2 Proyectos",
+      "specialty": "Especialidad: Full Stack",
+      "button": "Ver Experiencia Laboral"
+    }
+  },
+  "stack": {
+    "title": "Stack Tecnológico"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "downloadBtn": "Descargar CV"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "jobs": [
+      {
+        "puesto": "Desarrollador Full Stack",
+        "empresa": "Universidad Distrital Francisco José de Caldas",
+        "periodo": "22 de febrero de 2025 – 22 de agosto de 2026",
+        "logros": [
+          "Participé en el diseño, desarrollo e implementación del módulo de gestión de años sabáticos, modernizando la plataforma y mejorando la arquitectura del proyecto.",
+          "Automatizé procesos en frontend y backend, reduciendo la duplicación de código y facilitando el mantenimiento y la escalabilidad del sistema.",
+          "Diseñé e implementé un sistema de control de acceso basado en una matriz de permisos, fortaleciendo la seguridad y simplificando la administración de roles.",
+          "Elaboré documentación técnica y funcional que agilizó el mantenimiento y facilitó la incorporación de nuevos desarrolladores.",
+          "Implementé procesos de integración y despliegue continuo (CI/CD) mediante GitHub Actions y Drone, reduciendo errores manuales."
+        ],
+        "techs": [
+          "Frontend",
+          "Backend",
+          "Bases de Datos",
+          "CI/CD",
+          "GitHub Actions"
+        ],
+        "estado": "Finalizado"
+      },
+      {
+        "puesto": "Freelance",
+        "empresa": "Digital Space",
+        "periodo": "Junio 2024 – Diciembre 2025",
+        "logros": [
+          "Recuperé y estabilicé un sistema heredado sin documentación técnica previa, asegurando la continuidad operativa del proyecto.",
+          "Analizé la arquitectura del sistema para identificar dependencias y configuraciones críticas, facilitando futuras mejoras.",
+          "Elaboré documentación técnica completa de instalación y despliegue, disminuyendo tiempos de configuración en diferentes ambientes.",
+          "Desarrollé nuevas funcionalidades en el backend utilizando Node.js y Express.js, mejorando la estabilidad del producto.",
+          "Implementé interfaces web responsivas con Angular y React, ofreciendo una experiencia de usuario moderna.",
+          "Diseñé y optimicé bases de datos en MySQL, PostgreSQL y MongoDB, mejorando notablemente el rendimiento de las consultas."
+        ],
+        "techs": ["Frontend", "Backend", "Bases de Datos", "Deploy", "Docker"],
+        "estado": "Finalizado"
+      },
+      {
+        "puesto": "Freelance",
+        "empresa": "Jvn soft",
+        "periodo": "23 de septiembre de 2024 – 23 de febrero de 2025",
+        "logros": [
+          "Desarrollé y mantuve funcionalidades críticas para una plataforma de gestión de pólizas de seguros, garantizando su evolución continua.",
+          "Reestructuré el proyecto bajo una arquitectura Monorepo, centralizando módulos y promoviendo la reutilización de componentes.",
+          "Implementé un servidor SMTP para automatizar el envío de correos transaccionales (recuperación de cuentas, notificaciones).",
+          "Lideré el proceso de migración de información hacia una nueva infraestructura de bases de datos, garantizando integridad absoluta.",
+          "Diseñé un modelo de datos basado en arquitectura Multitenancy para la administración aislada de múltiples clientes."
+        ],
+        "techs": [
+          "Monorepo",
+          "Multitenancy",
+          "SMTP",
+          "Bases de Datos",
+          "Backend Optimization"
+        ],
+        "estado": "Finalizado"
+      },
+      {
+        "puesto": "Desarrollador Full Stack",
+        "empresa": "Universidad Distrital Francisco José de Caldas",
+        "periodo": "22 de diciembre de 2023 – 22 de septiembre de 2024",
+        "logros": [
+          "Participé en el desarrollo y mantenimiento de aplicaciones institucionales, orientadas al alto rendimiento y la escalabilidad.",
+          "Desarrollé servicios backend utilizando Go (Golang), optimizando la velocidad y eficiencia de las herramientas críticas.",
+          "Diseñé y optimicé bases de datos relacionales, fortaleciendo la integridad y la alta disponibilidad de la información."
+        ],
+        "techs": [
+          "Frontend",
+          "Backend",
+          "Bases de Datos",
+          "Microservices",
+          "Microfrontend"
+        ],
+        "estado": "Finalizado"
+      },
+      {
+        "puesto": "Desarrollador Full Stack",
+        "empresa": "Axity - Colombia",
+        "periodo": "16 de diciembre de 2022 - 16 de junio de 2023",
+        "logros": [
+          "Desarrollé funcionalidades frontend responsivas, mejorando directamente la experiencia de usuario y la usabilidad de las aplicaciones.",
+          "Implementé servicios complementarios con Node.js para ampliar capacidades del sistema y facilitar la integración de componentes.",
+          "Diseñé e implementé prototipos de interfaces interactivas que sirvieron como base para los lanzamientos finales de producción."
+        ],
+        "techs": [
+          "Frontend",
+          "Backend",
+          "Responsive Design",
+          "UI/UX Prototypes"
+        ],
+        "estado": "Finalizado"
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Educación",
+    "viewCertificate": "Ver Certificado",
+    "status": {
+      "completed": "Finalizado",
+      "ongoing": "En curso"
+    },
+    "studiesList": [
+      {
+        "img": "https://www.oitcinterfor.org/sites/default/files/styles/medium/public/Logo-de-SENA-png-verde-300x300-1.png?itok=3bA6MG0g",
+        "institucion": "Servicio Nacional de Aprendizaje (SENA)",
+        "educacion": "Técnico en Sistemas",
+        "content": "Culminado en 2021. Formación técnica enfocada en soporte de infraestructura, mantenimiento de hardware y bases de redes de datos.",
+        "estado": "Finalizado",
+        "fieldId": "https://drive.google.com/file/d/1FQQ5iplElvOmZTlXunY8lXCjn36FzxOf/view?usp=sharing"
+      },
+      {
+        "img": "https://www.oitcinterfor.org/sites/default/files/styles/medium/public/Logo-de-SENA-png-verde-300x300-1.png?itok=3bA6MG0g",
+        "institucion": "Servicio Nacional de Aprendizaje (SENA)",
+        "educacion": "Tecnólogo en ADSI",
+        "content": "Culminado en 2022. Enfocado en el análisis de requerimientos, diseño de bases de datos y desarrollo de lógica de software.",
+        "estado": "Finalizado",
+        "fieldId": "https://drive.google.com/file/d/1kGimiBRGJXtIZU4-D2MNiN-k2AeuW0cZ/view?usp=sharing"
+      },
+      {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_CUN_EXTERNOS_Logo_Corporacion_unificada_nacional_color.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
+        "institucion": "Corporación Unificada Nacional de Educación Superior (CUN)",
+        "educacion": "Ingeniero de Sistemas",
+        "content": "Actualmente en curso (9° semestre). Profundización en arquitectura de software, gestión de proyectos tecnológicos y soluciones escalables.",
+        "estado": "Cursando",
+        "fieldId": "https://drive.google.com/file/d/1B5E42y0IwUES_Nhl8NLXl8V2wMc6kBjT/view?usp=sharing"
+      }
+    ]
+  }
+}

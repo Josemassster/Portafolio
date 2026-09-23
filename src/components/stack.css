@@ -1,0 +1,43 @@
+.slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide-track {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+  font-size: 25px;
+}
+
+.tech-card {
+  width: 170px;
+  height: 90px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #0d1117;
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  flex-shrink: 0;
+
+  transition: 0.3s;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

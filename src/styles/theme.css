@@ -1,0 +1,199 @@
+:root {
+  /* =================================
+     CONTAINER
+  ================================= */
+
+  --container-max-width: 1200px;
+
+  --container-padding-mobile: 20px;
+
+  --container-padding-tablet: 32px;
+
+  --container-padding-desktop: 48px;
+
+  /* =================================
+     SPACING SYSTEM
+     Base 8px
+  ================================= */
+
+  --space-xs: 8px;
+
+  --space-sm: 16px;
+
+  --space-md: 24px;
+
+  --space-lg: 40px;
+
+  --space-xl: 64px;
+
+  --space-2xl: 96px;
+
+  --space-3xl: 120px;
+
+  /* =================================
+     TYPOGRAPHY
+  ================================= */
+
+  --font-family: "Inter", system-ui, sans-serif;
+
+  --heading-xl: 64px;
+
+  --heading-lg: 48px;
+
+  --heading-md: 36px;
+
+  --heading-sm: 28px;
+
+  --text-lg: 20px;
+
+  --text-md: 16px;
+
+  --text-sm: 14px;
+
+  /* ==========================================
+     DARK BLUE CV THEME
+  ========================================== */
+
+  /* Azul base */
+  --blue-950: #020617;
+  --blue-900: #0b1120;
+  --blue-800: #172554;
+  --blue-700: #1e3a8a;
+  --blue-600: #1d4ed8;
+  --blue-500: #2563eb;
+  --blue-400: #3b82f6;
+  --blue-300: #60a5fa;
+
+  /* ==========================================
+     BOOTSTRAP COLORS
+  ========================================== */
+
+  --bs-primary: var(--blue-500);
+  --bs-primary-rgb: 37, 99, 235;
+
+  --bs-secondary: #475569;
+  --bs-secondary-rgb: 71, 85, 105;
+
+  --bs-dark: var(--blue-950);
+  --bs-dark-rgb: 2, 6, 23;
+
+  --bs-light: #e2e8f0;
+
+  /* ==========================================
+     BODY
+  ========================================== */
+
+  --bs-body-bg: var(--blue-950);
+
+  --bs-body-color: #f8fafc;
+
+  /* ==========================================
+     SURFACES
+  ========================================== */
+
+  --surface-primary: #0b1120;
+
+  --surface-secondary: #111827;
+
+  --surface-card: #172554;
+
+  /* ==========================================
+     TEXT
+  ========================================== */
+
+  --text-primary: #f8fafc;
+
+  --text-secondary: #cbd5e1;
+
+  --text-muted: #94a3b8;
+
+  /* ==========================================
+     BORDER
+  ========================================== */
+
+  --bs-border-color: rgba(96, 165, 250, 0.2);
+
+  /* ==========================================
+     CARDS
+  ========================================== */
+
+  --bs-card-bg: var(--surface-secondary);
+
+  --bs-card-border-color: rgba(96, 165, 250, 0.15);
+
+  --bs-card-border-radius: 16px;
+
+  /* ==========================================
+     SHADOWS
+  ========================================== */
+
+  --bs-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+
+  /* ==========================================
+     LINKS
+  ========================================== */
+
+  --bs-link-color: var(--blue-300);
+
+  --bs-link-hover-color: var(--blue-400);
+
+  /* =================================
+     EFFECTS
+  ================================= */
+
+  --radius-sm: 8px;
+
+  --radius-md: 16px;
+
+  --radius-lg: 24px;
+
+  --shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+
+  /* HERO PRINCIPAL */
+
+  /* .hero-dark {
+    background: linear-gradient(135deg, #020617, #172554);
+
+    color: white;
+  } */
+
+  /* Tarjeta de experiencia */
+
+  /* .cv-card {
+    background: #111827;
+
+    border: 1px solid rgba(96, 165, 250, 0.15);
+
+    border-radius: 16px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  } */
+
+  /* Etiquetas de tecnologías */
+
+  /* .skill {
+    background: rgba(37, 99, 235, 0.15);
+
+    color: #93c5fd;
+
+    border: 1px solid rgba(96, 165, 250, 0.25);
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+  } */
+
+  /* Botón CV */
+
+  /* .btn-download {
+    background: #2563eb;
+
+    color: white;
+
+    border-radius: 10px;
+  }
+
+  .btn-download:hover {
+    background: #1d4ed8;
+  } */
+}

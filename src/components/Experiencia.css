@@ -1,0 +1,59 @@
+/* Contenedor general oscuro que hace match con tu fondo */
+.timeline-section {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+/* La línea vertical izquierda que une las experiencias */
+.timeline-line {
+  border-left: 2px solid rgba(13, 110, 253, 0.25); /* Línea azul difuminada */
+}
+
+/* El punto o nodo circular sobre la línea */
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  left: -32px; /* Alineación exacta sobre la línea vertical */
+  top: 6px;
+  background-color: #0d1117 !important;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+  z-index: 2;
+}
+
+/* --- EFECTOS INTERACTIVOS (HOVER) --- */
+
+/* Cuando pasas el mouse por encima de un trabajo, el nodo se "enciende" */
+.timeline-item:hover .timeline-dot {
+  background-color: #0d6efd !important; /* Cambia a azul Bootstrap */
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.6);
+}
+
+/* El título del puesto también cambia a azul al pasar el mouse */
+.timeline-item:hover .timeline-title {
+  color: #0d6efd !important;
+  transition: color 0.2s ease;
+}
+
+/* --- ESTILOS DE TEXTO Y TIPOGRAFÍA --- */
+
+/* Formato para la lista de viñetas (Logros) */
+.custom-bullet-list {
+  padding-left: 1.2rem;
+  font-size: 0.95rem;
+}
+
+.custom-bullet-list li {
+  color: #adb5bd; /* Gris claro para una lectura descansada */
+  margin-bottom: 0.5rem;
+}
+
+/* Tipografía de código para las etiquetas de tecnologías */
+.font-monospace {
+  font-family:
+    SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+}

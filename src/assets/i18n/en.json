@@ -1,0 +1,165 @@
+{
+  "navbar": {
+    "idioma": "Language",
+    "español": "Spanish",
+    "ingles": "English",
+    "perfil": "Profile",
+    "experiencia": "Experience",
+    "educacion": "Education",
+    "habilidades-tecnicas": "Technical Skills"
+  },
+
+  "aboutMe": {
+    "title": "About Me",
+    "paragraph1": "I am José Guillermo Vargas Rodríguez, a Technologist in Analysis and Development of Information Systems (ADSI) and a Systems Engineer in training, passionate about creating software solutions that combine performance, scalability, and an excellent user experience.",
+    "paragraph2": "Over the past two plus years, I have participated in the development of enterprise web applications for public entities and private companies, collaborating across all stages of software development: from requirements analysis and architectural design to implementation, documentation, and deployment of solutions in production.",
+    "paragraph3": "I specialize in Full Stack development, using technologies such as Angular, React, Node.js, Express.js, and Go (Golang) to build modern applications, REST APIs, and scalable platforms. I also have experience working with PostgreSQL, MySQL, and MongoDB, optimizing databases and designing efficient data models.",
+    "paragraph4": "Throughout my journey, I have worked with Microservices, Microfrontends, Monorepo, and Multitenancy architectures, as well as implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines using GitHub Actions and Drone to automate delivery and enhance software quality.",
+    "paragraph5": "I enjoy solving complex problems through simple and maintainable solutions. I always strive to write clean code, learn new technologies, and take part in projects that present technical challenges and deliver a real impact for organizations and their users.",
+    "card": {
+      "title": "Work Summary",
+      "experience": "+2 years of experience",
+      "companies": "5 companies worked with",
+      "projects": "2 Projects",
+      "specialty": "Specialty: Full Stack",
+      "button": "View Work Experience"
+    }
+  },
+  "stack": {
+    "title": "Tech Stack"
+  },
+  "hero": {
+    "greeting": "Hi, I am",
+    "downloadBtn": "Download CV"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": [
+      {
+        "puesto": "Full Stack Developer",
+        "empresa": "Universidad Distrital Francisco José de Caldas",
+        "periodo": "February 22, 2025 – August 22, 2026",
+        "logros": [
+          "Participated in the design, development, and implementation of the sabbatical leave management module, modernizing the platform and improving the project architecture.",
+          "Automated frontend and backend processes, reducing code duplication and streamlining system maintenance and scalability.",
+          "Designed and implemented an access control system based on a permission matrix, strengthening security and simplifying role administration.",
+          "Created technical and functional documentation that accelerated maintenance and eased the onboarding of new developers.",
+          "Implemented continuous integration and continuous deployment (CI/CD) pipelines using GitHub Actions and Drone, reducing manual errors."
+        ],
+        "techs": [
+          "Frontend",
+          "Backend",
+          "Databases",
+          "CI/CD",
+          "GitHub Actions"
+        ],
+        "estado": "Completed"
+      },
+      {
+        "puesto": "Freelance Developer",
+        "empresa": "Digital Space",
+        "periodo": "June 2024 – December 2025",
+        "logros": [
+          "Recovered and stabilized a legacy system lacking prior technical documentation, ensuring the project's operational continuity.",
+          "Analyzed the system architecture to identify dependencies and critical configurations, facilitating future enhancements.",
+          "Authored complete installation and deployment technical documentation, reducing setup times across different environments.",
+          "Developed new backend functionalities using Node.js and Express.js, improving product stability.",
+          "Implemented responsive web interfaces with Angular and React, delivering a modern user experience.",
+          "Designed and optimized databases in MySQL, PostgreSQL, and MongoDB, significantly boosting query performance."
+        ],
+        "techs": ["Frontend", "Backend", "Databases", "Deploy", "Docker"],
+        "estado": "Completed"
+      },
+      {
+        "puesto": "Freelance Developer",
+        "empresa": "Jvn soft",
+        "periodo": "September 23, 2024 – February 23, 2025",
+        "logros": [
+          "Developed and maintained critical functionalities for an insurance policy management platform, ensuring its continuous evolution.",
+          "Restructured the project under a Monorepo architecture, centralizing modules and promoting component reusability.",
+          "Implemented an SMTP server to automate transactional email delivery (account recovery, notifications).",
+          "Led the data migration process to a new database infrastructure, guaranteeing absolute data integrity.",
+          "Designed a data model based on Multitenancy architecture for isolated administration across multiple clients."
+        ],
+        "techs": [
+          "Monorepo",
+          "Multitenancy",
+          "SMTP",
+          "Databases",
+          "Backend Optimization"
+        ],
+        "estado": "Completed"
+      },
+      {
+        "puesto": "Full Stack Developer",
+        "empresa": "Universidad Distrital Francisco José de Caldas",
+        "periodo": "December 22, 2023 – September 22, 2024",
+        "logros": [
+          "Participated in the development and maintenance of institutional applications targeted toward high performance and scalability.",
+          "Developed backend services using Go (Golang), optimizing the speed and efficiency of critical tools.",
+          "Designed and optimized relational databases, strengthening data integrity and high availability."
+        ],
+        "techs": [
+          "Frontend",
+          "Backend",
+          "Databases",
+          "Microservices",
+          "Microfrontend"
+        ],
+        "estado": "Completed"
+      },
+      {
+        "puesto": "Full Stack Developer",
+        "empresa": "Axity - Colombia",
+        "periodo": "December 16, 2022 - June 16, 2023",
+        "logros": [
+          "Developed responsive frontend features, directly improving user experience and application usability.",
+          "Implemented supplementary services with Node.js to expand system capabilities and ease component integration.",
+          "Designed and implemented interactive interface prototypes that served as the foundation for final production releases."
+        ],
+        "techs": [
+          "Frontend",
+          "Backend",
+          "Responsive Design",
+          "UI/UX Prototypes"
+        ],
+        "estado": "Completed"
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "viewCertificate": "View Certificate",
+    "status": {
+      "completed": "Completed",
+      "ongoing": "In Progress"
+    },
+    "studiesList": [
+      {
+        "img": "https://www.oitcinterfor.org/sites/default/files/styles/medium/public/Logo-de-SENA-png-verde-300x300-1.png?itok=3bA6MG0g",
+        "institucion": "Servicio Nacional de Aprendizaje (SENA)",
+        "educacion": "Systems Technician",
+        "content": "Completed in 2021. Technical training focused on infrastructure support, hardware maintenance, and data networking fundamentals.",
+        "estado": "Completed",
+        "fieldId": "https://drive.google.com/file/d/1FQQ5iplElvOmZTlXunY8lXCjn36FzxOf/view?usp=sharing"
+      },
+      {
+        "img": "https://www.oitcinterfor.org/sites/default/files/styles/medium/public/Logo-de-SENA-png-verde-300x300-1.png?itok=3bA6MG0g",
+        "institucion": "Servicio Nacional de Aprendizaje (SENA)",
+        "educacion": "ADSI Technologist",
+        "content": "Completed in 2022. Focused on requirements analysis, database design, and software core logic development.",
+        "estado": "Completed",
+        "fieldId": "https://drive.google.com/file/d/1kGimiBRGJXtIZU4-D2MNiN-k2AeuW0cZ/view?usp=sharing"
+      },
+      {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_CUN_EXTERNOS_Logo_Corporacion_unificada_nacional_color.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
+        "institucion": "Corporación Unificada Nacional de Educación Superior (CUN)",
+        "educacion": "Systems Engineer",
+        "content": "Currently ongoing (9th semester). Specializing in software architecture, IT project management, and scalable solutions.",
+        "estado": "In Progress",
+        "fieldId": "https://drive.google.com/file/d/1B5E42y0IwUES_Nhl8NLXl8V2wMc6kBjT/view?usp=sharing"
+      }
+    ]
+  }
+}
