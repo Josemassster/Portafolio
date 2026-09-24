@@ -8,7 +8,7 @@ function Hero({}: Props) {
   const { t } = useTranslation();
 
   const urlCV =
-    "https://drive.google.com/file/d/1HFCBt6ji8TAvU8u5yAa-2mqFq3KG1oY4/view?usp=sharing";
+    "https://drive.google.com/file/d/1Ju_X4TLj_ekEwolOecJAwtO22ftMGmvk/view?usp=sharing";
 
   return (
     <>
