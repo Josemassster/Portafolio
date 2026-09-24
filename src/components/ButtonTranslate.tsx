@@ -9,6 +9,7 @@ function ButtonTranslate({}: Props) {
   const TranslateLenguje = (leng: string) => {
     i18n.changeLanguage(leng);
   };
+
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
